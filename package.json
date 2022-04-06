@@ -1,6 +1,6 @@
 {
-  "name": "ember-cp-validations",
-  "version": "4.0.0-beta.12",
+  "name": "@jebbit/ember-cp-validations",
+  "version": "4.0.0-beta.13",
   "description": "Ember computed property based validation library",
   "scripts": {
     "build": "ember build",
@@ -88,7 +88,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/offirgolan/ember-cp-validations.git"
+    "url": "http://github.com/jebbit/ember-cp-validations.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/jebbit"
   },
   "license": "MIT",
   "author": "Offir Golan <offirgolan@gmail.com>",
